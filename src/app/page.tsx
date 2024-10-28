@@ -188,13 +188,6 @@ export default function Home() {
         }
     };
 
-    // Alert user for screen size not being responsive
-    window.addEventListener("resize", () => {
-    if (window.innerWidth > 1440) { 
-        alert("This feature is currently not responsive. Please view on a larger screen (like desktop[1440] - screen[100%] ).");
-    }
-    });
-
     return (
 
         <div id="main" className="h-[85vh] w-[100vw] bg-[#B5E7FF] flex items-center justify-center">
